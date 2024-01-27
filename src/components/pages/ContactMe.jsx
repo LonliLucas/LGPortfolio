@@ -1,7 +1,7 @@
 function ContactMe() {
     
     return (
-        <div className="mb-auto">
+        <div className="body-background mb-auto">
             <h2>Contact Me</h2>
             <ul>
                 <li>Email: lukej.gilless@gmail.com</li>
