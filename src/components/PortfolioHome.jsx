@@ -29,7 +29,7 @@ export default function PortfolioHome() {
     return (
         <div className="flex flex-col min-h-screen justify-between">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            <main>{renderPage()}</main>
+            <main className="ml-1 mr-1">{renderPage()}</main>
             <Footer />
         </div>
     );
