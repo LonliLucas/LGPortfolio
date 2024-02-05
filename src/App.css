@@ -28,7 +28,8 @@ footer {
 }
 
 .background-placeholder {
-  background-image: url('./assets/elementor-placeholder-image.webp')
+  background-image: url('./assets/elementor-placeholder-image.webp');
+  background-size: cover;
 }
 
 .about-me {
@@ -48,4 +49,19 @@ footer {
 
 .resume-button {
   background-color: #214E34;
+}
+
+.theplug-background {
+  background-image: url('./assets/thePlug.png');
+  background-size: cover;
+}
+
+.movieknight-background {
+  background-image: url('./assets/movieKnight.png');
+  background-size: cover;
+}
+
+.trackemploy-background {
+  background-image: url('./assets/trackEmploy.png');
+  background-size: cover;
 }
