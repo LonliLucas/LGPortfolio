@@ -1,5 +1,3 @@
-// import { Link } from 'react-router-dom';
-
 function Header({ currentPage, handlePageChange }) {
     const clickHandler = (page, event) => {
         event.preventDefault();
@@ -37,7 +35,7 @@ function Header({ currentPage, handlePageChange }) {
                             Resume
                         </a>
                     </li>
-                    <li className="md:text-3xl text-2xl ml-4 mr-4">
+                    {/* <li className="md:text-3xl text-2xl ml-4 mr-4">
                         <a 
                             href='ContactMe'
                             onClick={(e) => clickHandler('ContactMe', e)}
@@ -45,7 +43,7 @@ function Header({ currentPage, handlePageChange }) {
                             >
                             Contact Me
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
          </header>
     )

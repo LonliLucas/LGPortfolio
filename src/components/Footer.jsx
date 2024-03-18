@@ -4,7 +4,7 @@ function Footer() {
             <ul className="flex justify-between p-8">
                 <a href="https://github.com/LonliLucas" target="_blank" rel="noopener noreferrer">Github</a>
                 <a href="https://www.linkedin.com/in/lucas-gilles-a323761a7/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                <a href="https://www.instagram.com/lukej.gilless?igsh=bzNqemF1dXR6bnBw" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a>lukej.gilless@gmail.com</a>
             </ul>
         </footer>
     )

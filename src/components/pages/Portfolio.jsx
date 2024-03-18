@@ -11,9 +11,9 @@ function Portfolio() {
         window.open(link, '_blank');
     };
     
-    const trackEmployLink = () => {
+    const characterQuiverLink = () => {
         event.stopPropagation();
-        const link = 'https://github.com/LonliLucas/TrackEmploy';
+        const link = 'https://character-quiver.onrender.com/';
         window.open(link, '_blank');
     };
 
@@ -32,8 +32,11 @@ function Portfolio() {
                         <img src="github-repo.svg" className="size-14" />
                     </a>
                 </li>
-                <li className="portfolio-card flex flex-col items-center justify-between trackemploy-background h-80 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 p-6 mb-4 cursor-pointer shadow-lg" onClick={ trackEmployLink }>
-                    <a className="text-xl">TrackEmploy</a>
+                <li className="portfolio-card flex flex-col items-center justify-between characterquiver-background h-80 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 p-6 mb-4 cursor-pointer shadow-lg" onClick={ characterQuiverLink }>
+                    <a className="text-xl">Character Quiver</a>
+                    <a href="https://github.com/Krich2022/character-quiver" target="_blank" rel="noopener noreferrer" className="bg-slate-200 rounded-full shadow-md" onClick={(event) => event.stopPropagation()}>
+                        <img src="github-repo.svg" className="size-14" />
+                    </a>
                 </li>
             </ul>
         </div>
